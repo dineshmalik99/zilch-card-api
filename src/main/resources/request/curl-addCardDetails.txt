@@ -1,0 +1,11 @@
+curl --location --request POST 'http://localhost:8080/zilch/cards' \
+--header 'Accept: application/json' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+  "userId": "user123",
+  "userFirstName": "Dinesh",
+  "userLastName": "Malik",
+  "cardNo": "4417123456789113",
+  "expiryDate": "2024-02-02",
+  "cvv": "123"
+}'

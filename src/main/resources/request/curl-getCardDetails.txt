@@ -1,0 +1,5 @@
+curl --location --request GET 'http://localhost:8080/zilch/cards/card' \
+--header 'Accept: application/json' \
+--header 'userId: user123' \
+--header 'last4Digit: 9113' \
+--data-raw ''
